@@ -1,0 +1,98 @@
+{
+  "erm": {
+    "source_validation": {
+      "photo": {
+        "accuracy": 0.954954954954955,
+        "macro_f1": 0.944734471506267
+      },
+      "art_painting": {
+        "accuracy": 0.9146341463414634,
+        "macro_f1": 0.9116127347078828
+      },
+      "cartoon": {
+        "accuracy": 0.9530916844349681,
+        "macro_f1": 0.9549153843204883
+      }
+    },
+    "mean_source_accuracy": 0.9408935952437956,
+    "mean_source_macro_f1": 0.9370875301782128,
+    "worst_source_accuracy": 0.9146341463414634,
+    "worst_source_macro_f1": 0.9116127347078828,
+    "sketch_accuracy": 0.714431152965131,
+    "sketch_macro_f1": 0.7470841212892091,
+    "sketch_per_class_accuracy": {
+      "dog": 0.4119170984455959,
+      "elephant": 0.6054054054054054,
+      "giraffe": 0.7649402390438247,
+      "guitar": 0.930921052631579,
+      "horse": 0.866421568627451,
+      "house": 0.9875,
+      "person": 0.70625
+    },
+    "sketch_accuracy_change_vs_erm": 0.0
+  },
+  "dan_dg": {
+    "source_validation": {
+      "photo": {
+        "accuracy": 0.9579579579579579,
+        "macro_f1": 0.9472978645301696
+      },
+      "art_painting": {
+        "accuracy": 0.9219512195121952,
+        "macro_f1": 0.9215269068219759
+      },
+      "cartoon": {
+        "accuracy": 0.9573560767590619,
+        "macro_f1": 0.9557771147456275
+      }
+    },
+    "mean_source_accuracy": 0.9457550847430717,
+    "mean_source_macro_f1": 0.9415339620325911,
+    "worst_source_accuracy": 0.9219512195121952,
+    "worst_source_macro_f1": 0.9215269068219759,
+    "sketch_accuracy": 0.7500636294222448,
+    "sketch_macro_f1": 0.7636158646766698,
+    "sketch_per_class_accuracy": {
+      "dog": 0.3873056994818653,
+      "elephant": 0.8364864864864865,
+      "giraffe": 0.852589641434263,
+      "guitar": 0.9638157894736842,
+      "horse": 0.7536764705882353,
+      "house": 0.95,
+      "person": 0.6875
+    },
+    "sketch_accuracy_change_vs_erm": 0.03563247645711376
+  },
+  "sam": {
+    "source_validation": {
+      "photo": {
+        "accuracy": 0.9579579579579579,
+        "macro_f1": 0.9505020943226281
+      },
+      "art_painting": {
+        "accuracy": 0.9341463414634147,
+        "macro_f1": 0.9360424891453726
+      },
+      "cartoon": {
+        "accuracy": 0.9402985074626866,
+        "macro_f1": 0.9408896012955485
+      }
+    },
+    "mean_source_accuracy": 0.9441342689613531,
+    "mean_source_macro_f1": 0.9424780615878497,
+    "worst_source_accuracy": 0.9341463414634147,
+    "worst_source_macro_f1": 0.9360424891453726,
+    "sketch_accuracy": 0.6396029524051922,
+    "sketch_macro_f1": 0.6538976809866995,
+    "sketch_per_class_accuracy": {
+      "dog": 0.3795336787564767,
+      "elephant": 0.972972972972973,
+      "giraffe": 0.7529880478087649,
+      "guitar": 0.7664473684210527,
+      "horse": 0.41421568627450983,
+      "house": 0.9375,
+      "person": 0.3375
+    },
+    "sketch_accuracy_change_vs_erm": -0.07482820055993888
+  }
+}

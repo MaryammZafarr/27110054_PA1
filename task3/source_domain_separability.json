@@ -1,0 +1,32 @@
+{
+  "erm": {
+    "domains": [
+      "art_painting",
+      "cartoon",
+      "photo"
+    ],
+    "n_per_domain": 333,
+    "held_out_accuracy": 0.8266666666666667,
+    "chance_accuracy": 0.3333333333333333
+  },
+  "dan_dg": {
+    "domains": [
+      "art_painting",
+      "cartoon",
+      "photo"
+    ],
+    "n_per_domain": 333,
+    "held_out_accuracy": 0.7833333333333333,
+    "chance_accuracy": 0.3333333333333333
+  },
+  "sam": {
+    "domains": [
+      "art_painting",
+      "cartoon",
+      "photo"
+    ],
+    "n_per_domain": 333,
+    "held_out_accuracy": 0.8833333333333333,
+    "chance_accuracy": 0.3333333333333333
+  }
+}
