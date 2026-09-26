@@ -10,33 +10,14 @@ ATML_PA1/
 ├── README.md
 │
 ├── task1/
-│   ├── data/
-│   ├── scripts/
-│   ├── results/
-│   └── ...
-│
+│  
 ├── shared/
-│   ├── data/
-│   ├── models/
-│   ├── utils/
-│   ├── training/
-│   └── ...
 │
 ├── task2/
-│   ├── scripts/
-│   ├── results/
-│   └── ...
 │
 ├── task3/
-│   ├── scripts/
-│   ├── results/
-│   └── ...
 │
 └── task4/
-    ├── data/
-    ├── scripts/
-    ├── results/
-    └── ...
 ```
 
 ## Tasks
