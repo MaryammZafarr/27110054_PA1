@@ -1,0 +1,25 @@
+{
+  "models": {
+    "vanilla": {
+      "path": "checkpoints\\vanilla\\best.pt",
+      "sha256": "5ad2fa97b84dc4afbff56d0fbdcb388e5205e722cd6890fd79a0bf8a04523fbb",
+      "best_epoch": 100,
+      "val_acc": 0.956
+    },
+    "gcsc": {
+      "path": "checkpoints\\gcsc\\best.pt",
+      "sha256": "33724792c0524ffda12bfd164ef8858f5e28f514554eb2b0dc5555b2eff7b0b5",
+      "best_epoch": 96,
+      "val_acc": 0.9584
+    },
+    "proser": {
+      "path": "checkpoints\\proser\\best.pt",
+      "sha256": "21b6f8848a32b40cf06acdd90a9efd579c42d76ec8a750869ca15fa5858686ff",
+      "best_epoch": 4,
+      "val_acc": 0.9512
+    }
+  },
+  "frozen_at": "2026-09-20T20:49:00.412465+00:00",
+  "refrozen": false,
+  "note": "Checkpoints hashed BEFORE any CIFAR-100 image was loaded."
+}

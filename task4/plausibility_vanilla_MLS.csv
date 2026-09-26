@@ -1,0 +1,17 @@
+group,unknown_class,accepted,accepted_plausible,accepted_surprising
+near,bus,83,79,4
+near,pickup_truck,91,90,1
+near,motorcycle,41,31,10
+near,tractor,52,48,4
+near,wolf,77,75,2
+near,fox,70,40,30
+near,leopard,70,29,41
+near,camel,65,28,37
+far,bottle,44,0,44
+far,bowl,40,0,40
+far,chair,46,0,46
+far,clock,35,0,35
+far,keyboard,32,0,32
+far,mushroom,53,12,41
+far,sunflower,44,0,44
+far,wardrobe,70,35,35

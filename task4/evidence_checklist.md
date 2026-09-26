@@ -1,0 +1,15 @@
+# Evidence checklist
+
+- [x] Table 1 (post-hoc scores)  (table1_posthoc_vanilla.md)
+- [x] Table 2 (Vanilla/GCSC/PROSER)  (table2_trained_models.md)
+- [x] Figure: MSP/MLS/Mahalanobis  (fig_scores_vanilla.png)
+- [x] Failures (>=3 near, >=3 far)  (failures_vanilla_mls.csv)
+- [x] Failure image grid  (fig_failures_vanilla_mls.png)
+- [x] RQ1 class breakdown  (class_breakdown_vanilla_MLS.csv)
+- [x] RQ1 absorption  (absorption_vanilla_MLS.csv)
+- [x] RQ2 agreement  (score_agreement_pairwise_accept_agreement_on_unknowns.csv)
+- [x] RQ3/4 bootstrap  (bootstrap_table2.csv)
+- [x] RQ4 geometry/proxies  (geometry_and_proxies.csv)
+- [x] Freeze manifest  (freeze_manifest.json)
+- [x] Report facts  (report_facts.md)
+- [x] failure count near=12 far=12 (need >=3 each)
