@@ -1,0 +1,213 @@
+{
+  "dan": {
+    "per_class_accuracy_delta_vs_source_only": {
+      "dog": -0.009067356586456299,
+      "elephant": 0.045945942401885986,
+      "giraffe": -0.20982736349105835,
+      "guitar": -0.3651316165924072,
+      "horse": -0.2965686321258545,
+      "house": 0.012499988079071045,
+      "person": -0.5375000089406967
+    },
+    "most_degraded_classes": [
+      {
+        "class": "person",
+        "delta": -0.5375000089406967,
+        "top_confusions": [
+          [
+            "house",
+            133
+          ]
+        ]
+      },
+      {
+        "class": "guitar",
+        "delta": -0.3651316165924072,
+        "top_confusions": [
+          [
+            "person",
+            154
+          ],
+          [
+            "house",
+            58
+          ],
+          [
+            "giraffe",
+            49
+          ]
+        ]
+      }
+    ],
+    "most_improved_classes": [
+      {
+        "class": "house",
+        "delta": 0.012499988079071045,
+        "top_confusions": []
+      },
+      {
+        "class": "elephant",
+        "delta": 0.045945942401885986,
+        "top_confusions": [
+          [
+            "person",
+            121
+          ],
+          [
+            "house",
+            79
+          ],
+          [
+            "dog",
+            49
+          ]
+        ]
+      }
+    ]
+  },
+  "dann": {
+    "per_class_accuracy_delta_vs_source_only": {
+      "dog": -0.4119170904159546,
+      "elephant": 0.39459460973739624,
+      "giraffe": -0.7503320276737213,
+      "guitar": -0.8601973950862885,
+      "horse": -0.862745109712705,
+      "house": -0.925000011920929,
+      "person": -0.706250011920929
+    },
+    "most_degraded_classes": [
+      {
+        "class": "house",
+        "delta": -0.925000011920929,
+        "top_confusions": [
+          [
+            "elephant",
+            75
+          ]
+        ]
+      },
+      {
+        "class": "horse",
+        "delta": -0.862745109712705,
+        "top_confusions": [
+          [
+            "elephant",
+            813
+          ]
+        ]
+      }
+    ],
+    "most_improved_classes": [
+      {
+        "class": "dog",
+        "delta": -0.4119170904159546,
+        "top_confusions": [
+          [
+            "elephant",
+            766
+          ],
+          [
+            "horse",
+            5
+          ],
+          [
+            "person",
+            1
+          ]
+        ]
+      },
+      {
+        "class": "elephant",
+        "delta": 0.39459460973739624,
+        "top_confusions": []
+      }
+    ]
+  },
+  "cdan": {
+    "per_class_accuracy_delta_vs_source_only": {
+      "dog": -0.17746113240718842,
+      "elephant": 0.2432432770729065,
+      "giraffe": 0.10756969451904297,
+      "guitar": -0.08388161659240723,
+      "horse": -0.4901960790157318,
+      "house": 0.012499988079071045,
+      "person": -0.4937500059604645
+    },
+    "most_degraded_classes": [
+      {
+        "class": "person",
+        "delta": -0.4937500059604645,
+        "top_confusions": [
+          [
+            "house",
+            69
+          ],
+          [
+            "elephant",
+            40
+          ],
+          [
+            "giraffe",
+            17
+          ]
+        ]
+      },
+      {
+        "class": "horse",
+        "delta": -0.4901960790157318,
+        "top_confusions": [
+          [
+            "giraffe",
+            206
+          ],
+          [
+            "elephant",
+            185
+          ],
+          [
+            "house",
+            67
+          ]
+        ]
+      }
+    ],
+    "most_improved_classes": [
+      {
+        "class": "giraffe",
+        "delta": 0.10756969451904297,
+        "top_confusions": [
+          [
+            "elephant",
+            32
+          ],
+          [
+            "house",
+            30
+          ],
+          [
+            "person",
+            26
+          ]
+        ]
+      },
+      {
+        "class": "elephant",
+        "delta": 0.2432432770729065,
+        "top_confusions": [
+          [
+            "house",
+            71
+          ],
+          [
+            "person",
+            35
+          ],
+          [
+            "giraffe",
+            6
+          ]
+        ]
+      }
+    ]
+  }
+}

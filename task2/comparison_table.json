@@ -1,0 +1,62 @@
+[
+  {
+    "method": "source_only",
+    "val_acc_photo": 0.954954954954955,
+    "val_acc_art_painting": 0.9146341463414634,
+    "val_acc_cartoon": 0.9530916844349681,
+    "val_f1_photo": 0.944734471506267,
+    "val_f1_art_painting": 0.9116127347078828,
+    "val_f1_cartoon": 0.9549153843204883,
+    "mean_source_accuracy": 0.9408935952437955,
+    "mean_source_macro_f1": 0.9370875301782128,
+    "target_accuracy": 0.714431152965131,
+    "target_macro_f1": 0.7470841212892091,
+    "target_accuracy_change_vs_source_only": 0.0,
+    "domain_separability_accuracy": 0.9931318681318682
+  },
+  {
+    "method": "dan",
+    "val_acc_photo": 0.9579579579579579,
+    "val_acc_art_painting": 0.9146341463414634,
+    "val_acc_cartoon": 0.9424307036247335,
+    "val_f1_photo": 0.9516505403570842,
+    "val_f1_art_painting": 0.9154400032888204,
+    "val_f1_cartoon": 0.9461440532470611,
+    "mean_source_accuracy": 0.9383409359747183,
+    "mean_source_macro_f1": 0.9377448656309886,
+    "target_accuracy": 0.5413591244591499,
+    "target_macro_f1": 0.5188895359731591,
+    "target_accuracy_change_vs_source_only": -0.17307202850598113,
+    "domain_separability_accuracy": 0.8557692307692307
+  },
+  {
+    "method": "dann",
+    "val_acc_photo": 0.9429429429429429,
+    "val_acc_art_painting": 0.7536585365853659,
+    "val_acc_cartoon": 0.7910447761194029,
+    "val_f1_photo": 0.9313998601625988,
+    "val_f1_art_painting": 0.741440408553914,
+    "val_f1_cartoon": 0.8062285154273952,
+    "mean_source_accuracy": 0.8292154185492372,
+    "mean_source_macro_f1": 0.8263562613813026,
+    "target_accuracy": 0.20412318656146602,
+    "target_macro_f1": 0.08696377679331367,
+    "target_accuracy_change_vs_source_only": -0.510307966403665,
+    "domain_separability_accuracy": 1.0
+  },
+  {
+    "method": "cdan",
+    "val_acc_photo": 0.9459459459459459,
+    "val_acc_art_painting": 0.9097560975609756,
+    "val_acc_cartoon": 0.9317697228144989,
+    "val_f1_photo": 0.9368823850697263,
+    "val_f1_art_painting": 0.9099143448879801,
+    "val_f1_cartoon": 0.9311651544565892,
+    "mean_source_accuracy": 0.9291572554404736,
+    "mean_source_macro_f1": 0.9259872948047652,
+    "target_accuracy": 0.6113514889284806,
+    "target_macro_f1": 0.5311220418902837,
+    "target_accuracy_change_vs_source_only": -0.10307966403665048,
+    "domain_separability_accuracy": 0.9945054945054945
+  }
+]

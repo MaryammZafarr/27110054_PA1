@@ -1,0 +1,75 @@
+{
+  "mean_source_accuracy": 0.9408935952437955,
+  "target_accuracy": 0.714431152965131,
+  "domain_gap_accuracy": 0.2264624422786644,
+  "mean_source_macro_f1": 0.9370875301782128,
+  "target_macro_f1": 0.7470841212892091,
+  "domain_gap_macro_f1": 0.1900034088890037,
+  "per_class_target_accuracy": {
+    "dog": 0.4119170904159546,
+    "elephant": 0.6054053902626038,
+    "giraffe": 0.7649402618408203,
+    "guitar": 0.9309210777282715,
+    "horse": 0.8664215803146362,
+    "house": 0.987500011920929,
+    "person": 0.706250011920929
+  },
+  "worst_classes": [
+    [
+      "dog",
+      0.4119170904159546
+    ],
+    [
+      "elephant",
+      0.6054053902626038
+    ],
+    [
+      "person",
+      0.706250011920929
+    ]
+  ],
+  "worst_class_top_confusions": {
+    "dog": [
+      [
+        "horse",
+        320
+      ],
+      [
+        "giraffe",
+        58
+      ],
+      [
+        "elephant",
+        48
+      ]
+    ],
+    "elephant": [
+      [
+        "horse",
+        170
+      ],
+      [
+        "dog",
+        84
+      ],
+      [
+        "giraffe",
+        27
+      ]
+    ],
+    "person": [
+      [
+        "giraffe",
+        28
+      ],
+      [
+        "elephant",
+        9
+      ],
+      [
+        "horse",
+        6
+      ]
+    ]
+  }
+}

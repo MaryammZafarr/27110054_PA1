@@ -1,0 +1,26 @@
+[
+  {
+    "lambda_mmd": 0.1,
+    "mean_source_accuracy": 0.9363886118163512,
+    "mean_source_macro_f1": 0.9356668764325772,
+    "target_accuracy": 0.6782896411300585,
+    "target_macro_f1": 0.604748638559362,
+    "domain_separability_accuracy": 0.8887362637362637
+  },
+  {
+    "lambda_mmd": 1.0,
+    "mean_source_accuracy": 0.940661125007685,
+    "mean_source_macro_f1": 0.940438936281133,
+    "target_accuracy": 0.5558666327309748,
+    "target_macro_f1": 0.5266151061156267,
+    "domain_separability_accuracy": 0.7994505494505495
+  },
+  {
+    "lambda_mmd": 10.0,
+    "mean_source_accuracy": 0.2168261141686697,
+    "mean_source_macro_f1": 0.050716507041089376,
+    "target_accuracy": 0.04072283023670145,
+    "target_macro_f1": 0.011179820424134438,
+    "domain_separability_accuracy": 0.5728021978021978
+  }
+]
