@@ -1,0 +1,26 @@
+{
+  "resnet50": {
+    "top1_acc": 0.8999999761581421,
+    "macro_f1": 0.9006195308338583,
+    "mean_confidence": 0.9235148429870605,
+    "consistency_vs_clean": 0.9139999747276306
+  },
+  "vit_b16": {
+    "top1_acc": 0.8880000114440918,
+    "macro_f1": 0.8892123002019421,
+    "mean_confidence": 0.858248233795166,
+    "consistency_vs_clean": 0.9020000100135803
+  },
+  "clip_vitb32": {
+    "top1_acc": 0.7739999890327454,
+    "macro_f1": 0.7719433446604865,
+    "mean_confidence": 0.15660642087459564,
+    "consistency_vs_clean": 0.7839999794960022
+  },
+  "clip_zeroshot": {
+    "top1_acc": 0.7799999713897705,
+    "macro_f1": 0.7780958839111449,
+    "mean_confidence": 0.7578080296516418,
+    "consistency_vs_clean": 0.7900000214576721
+  }
+}

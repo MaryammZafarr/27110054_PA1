@@ -1,0 +1,17 @@
+{
+  "resnet50": {
+    "grayscale": 0.797950029373169,
+    "translation_16px": 0.9442225694656372,
+    "patch_shuffle": 0.6965445280075073
+  },
+  "vit_b16": {
+    "grayscale": 0.731627345085144,
+    "translation_16px": 0.9765831232070923,
+    "patch_shuffle": 0.6326240301132202
+  },
+  "clip_vitb32": {
+    "grayscale": 0.8850297927856445,
+    "translation_16px": 0.962523877620697,
+    "patch_shuffle": 0.7505609393119812
+  }
+}
